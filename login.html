@@ -1,0 +1,1034 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ko" lang="ko">
+<head>
+<script>
+	(function(i, s, o, g, r, a, m) {
+		a = s.createElement(o);
+		m = s.getElementsByTagName(o)[0];
+		a.src = g;
+		a.onload = function() {
+			i[r]
+					.init(
+							'https://js-error-tracer-api.cafe24.com',
+							{
+								"token" : "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJlY3VkZW1vNDI5NjguY2FmZTI0LmNvbSIsImF1ZCI6ImpzLWVycm9yLXRyYWNlci1hcGkuY2FmZTI0LmNvbSIsIm1hbGxfaWQiOiJlY3VkZW1vNDI5NjgiLCJzaG9wX25vIjoxLCJwYXRoX3JvbGUiOiJNRU1CRVJfTE9HSU4iLCJsYW5ndWFnZV9jb2RlIjoia29fS1IiLCJjb3VudHJ5X2NvZGUiOiJLUiIsIm9yaWdpbiI6Imh0dHA6XC9cL2VjdWRlbW80Mjk2OC5jYWZlMjQuY29tIiwiaXNfY29udGFpbmVyIjpmYWxzZSwiaG9zdG5hbWUiOiJ1ZG1wLTM3In0.FAzRe0s3aOK6-ze5LW7bwdDO-5Br98_v0Y6xvM9ZnlQ",
+								"collectWindowErrors" : true,
+								"preventDuplicateReport" : true,
+								"storageKeyPrefix" : "EC_JET.MEMBER_LOGIN"
+							});
+		};
+		m.parentNode.insertBefore(a, m);
+	}(window, document, 'script', '/ind-script/optimizer_01.js', 'EC_JET'));
+</script>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!--메타태그 및 스크립트 css 영역-->
+<!--PG크로스브라우징필수내용 시작-->
+<meta http-equiv="Cache-Control" content="public" max-age="86400" />
+<meta name="viewport"
+	content="width=device-width, initial-scale=1.0, maximum-scale=2.0, minimum-scale=1.0, user-scalable=yes" />
+<meta name="format-detection" content="telephone=no" />
+<!--해당 CSS는 쇼핑몰 전체 페이지에 영향을 줍니다. 삭제와 수정에 주의해주세요.-->
+<!-- 스마트디자인에서는 JQuery 1.4.4 버전이 내장되어있습니다. 추가로 호출하면 충돌이 생길 수 있습니다. -->
+<link rel="preconnect" href="https://fonts.gstatic.com" />
+<link
+	href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&amp;display=swap"
+	rel="stylesheet" />
+<link
+	href="https://fonts.googleapis.com/css?family=Noto+Sans+KR:100,300,400,700,900&amp;subset=korean"
+	rel="stylesheet" />
+<link rel="stylesheet" type="text/css" href="ind-script/rule_01.css" />
+
+
+<!--script src="https://kit.fontawesome.com/f8c1c0a73b.js" crossorigin="anonymous"></script-->
+<script type="text/javascript" src="ec-js/common.js"></script>
+<!-- 해당 JS는 플래시를 사용하기 위한 스크립트입니다. -->
+<script src="//code.jquery.com/jquery-1.12.4.js"></script>
+<script src="mosen/jquery-ui-1.12.1.custom/jquery.ui.min.js"></script>
+<script type="text/javascript"
+	src="mosen/bxslide/jquery.bxslider.min.js"></script>
+<link rel="canonical"
+	href="http://localhost:8888/clone_shopping/login.html" />
+<meta property="og:url" content="" />
+<meta property="og:type" content="website" />
+<script type="text/javascript" src="app/Eclog/js/cid.generate.js"></script>
+
+<script type='text/javascript'>
+	var EC_FRONT_EXTERNAL_SCRIPT_VARIABLE_DATA = {
+		"common_member_id_crypt" : ""
+	};
+</script>
+
+<link rel="stylesheet" type="text/css"
+	href="ind-script/join/join_css_01.css" />
+<link rel="stylesheet" type="text/css"
+	href="ind-script/join/join_css_02.css" />
+<link rel="stylesheet" type="text/css" href="style/login_01.css" />
+
+
+<title>로그인 페이지</title>
+<meta name="path_role" content="MEMBER_LOGIN" />
+<meta name="keywords" content="" />
+</head>
+<body>
+	<div id="layout_wrap">
+
+		<!--상단 영역-->
+		<!--1024픽셀이하시 보여지는 상단메뉴-->
+		<header id="header">
+		<div class="header">
+			<div id="logo">
+				<a href="index.html">
+				<img src="web/season2_skin/skin1/images/logo.png" alt="" /></a>
+			</div>
+			<div class="category">
+				<a href="#none" class="tuxedo-menu-trigger">카테고리</a>
+			</div>
+			<div class="search">
+				<a href="/product/search.html">검색</a>
+			</div>
+		</div>
+		</header>
+		<!-- 전체메뉴 배경-->
+		<div class="tuxedo_bg"></div>
+
+		<!--상단 좌측 메뉴-->
+		<div id="left">
+			<script src="mosen/menu05/src/jquery.cookie.js"></script>
+			<script type="text/javascript"
+				src="mosen/menu05/src/jquery.navgoco.js"></script>
+
+
+			<ul id="left_menu" class="nav accordion">
+				<!--메인로고메뉴-->
+				<li class="logo "><a href="/index.html"><img
+						src="web/season2_skin/skin1/images/logo.png" alt="" /></a></li>
+
+				<!--로그인메뉴-->
+				<li
+					class="xans-element- xans-layout xans-layout-statelogoff login_menu "><a
+					href="/member/login.html">login</a> / <a
+					href="/member/agreement.html">join us</a></li>
+
+				<li class="login_menu"><a href="/myshop/index.html">my page</a>
+					/ <a href="/order/basket.html"
+					class="xans-element- xans-layout xans-layout-orderbasketcount ">basket
+						<span>(0)</span>
+				</a></li>
+
+				<!--메인스타일 메뉴-->
+				<li class="cate_menu"><a href="#">MAIN STYLE</a>
+					<ul class="category">
+						<li><a href="/brand/style01.html">Furniture</a></li>
+						<li><a href="/brand/style02.html">Surface</a></li>
+						<li><a href="/brand/style03.html">WILDLING</a></li>
+						<li><a href="/brand/style04.html">CASA CHREPA</a></li>
+						<li><a href="/brand/style05.html">APPLE</a></li>
+						<li><a href="/brand/style06.html">FASHION</a></li>
+
+
+					</ul></li>
+
+				<!--어바웃메뉴-->
+				<li class="cate_menu"><a href="#">ABOUT US</a>
+					<ul class="category">
+						<li><a href="/company/about.html">ABOUT W</a></li>
+						<li><a href="/company/movie.html">BRAND MOVIE</a></li>
+						<li><a href="/company/location.html">LOCATION</a></li>
+
+
+					</ul></li>
+
+				<!--스토어메뉴-->
+				<li class="cate_menu"><a href="#">STORE</a>
+					<ul class="xans-element- xans-layout xans-layout-category category">
+						<li class="xans-record-"><a href="/category/new-in/42/">new
+								in</a></li>
+						<li class="xans-record-"><a href="/category/fashion/24/">FASHION</a></li>
+						<li class="xans-record-"><a href="/category/beauty-care/25/">BEAUTY
+								& CARE</a></li>
+						<li class="xans-record-"><a href="/category/electronics/27/">ELECTRONICS</a></li>
+						<li class="xans-record-"><a href="/category/style/28/">STYLE</a></li>
+						<li class="xans-record-"><a href="/category/sale/26/">sale</a></li>
+					</ul></li>
+
+				<!--커뮤니티메뉴-->
+				<li class="cate_menu"><a href="#">COMMUNITY</a>
+					<ul
+						class="xans-element- xans-layout xans-layout-boardinfo category">
+						<li class="xans-record-"><a
+							href="/board/free/list.html?board_no=1">NOTICE</a></li>
+						<li class="xans-record-"><a
+							href="/board/product/list.html?board_no=6">Q & A</a></li>
+						<li class="xans-record-"><a
+							href="/board/product/list.html?board_no=4">REVIEW</a></li>
+						<li class="xans-record-"><a
+							href="/board/gallery/list.html?board_no=8">PRESS</a></li>
+					</ul></li>
+
+				<!--룩북메뉴-->
+				<li class="cate_menu"><a href="#">LOOKBOOK</a>
+					<ul class="category">
+						<li class="cate_menu"><a
+							href="/lookbook/list_basic.html?cate_no=43">BASIC</a></li>
+						<li class="cate_menu"><a
+							href="/lookbook/list_popup.html?cate_no=43">POPUP</a></li>
+
+					</ul></li>
+
+				<!--포트폴리오메뉴-->
+				<li class="cate_menu"><a href="#">PORTFOLIO</a>
+					<ul class="category">
+						<li><a href="/portfolio/list_popup.html?cate_no=45">INTERIOR</a></li>
+						<li><a href="/portfolio/list_popup.html?cate_no=46">DESIGN</a></li>
+						<li><a href="/portfolio/list_basic.html?cate_no=47">PHOTO
+								LIVE</a></li>
+						<li><a href="/portfolio/list_basic.html?cate_no=48">FASHION</a></li>
+
+
+					</ul></li>
+
+				<!--스토키스트 메뉴-->
+				<li style="margin-top: 20px;" class="cate_menu"><a
+					href="/company/stockist.html" class="small_menu"><i
+						class="fa fa-angle-right" aria-hidden="true"></i> STOCKIST</a></li>
+
+				<!--컨텍트어스 메뉴-->
+				<li class="cate_menu"><a href="/board/urgency/urgency.html"
+					class="small_menu"><i class="fa fa-angle-right"
+						aria-hidden="true"></i> CONTACT US</a></li>
+
+				<!--글로벌메뉴 (멀티쇼핑몰적용시 자동 온/오프됨)-->
+				<li
+					class="xans-element- xans-layout xans-layout-multishoplistitem cate_menu"><a
+					href="#" class="small_menu"><i class="fa fa-angle-right"
+						aria-hidden="true"></i> BY LANGUAGE</a>
+					<ul class="global_btn">
+						<li class="selected xans-record-"><a
+							href="//ecudemo42968.cafe24.com/"><img
+								src="//img.cafe24.com/img/common/global/ko_KR_32x24.png" alt=""
+								class="ease" /><span class="name">한국어</span></a></li>
+						<li class=" xans-record-"><a
+							href="//shop2.ecudemo42968.cafe24.com/"><img
+								src="//img.cafe24.com/img/common/global/en_US_32x24.png" alt=""
+								class="ease" /><span class="name">English</span></a></li>
+						<li class=" xans-record-"><a
+							href="//shop3.ecudemo42968.cafe24.com/"><img
+								src="//img.cafe24.com/img/common/global/zh_CN_32x24.png" alt=""
+								class="ease" /><span class="name">中文</span></a></li>
+						<li class=" xans-record-"><a
+							href="//shop4.ecudemo42968.cafe24.com/"><img
+								src="//img.cafe24.com/img/common/global/ja_JP_32x24.png" alt=""
+								class="ease" /><span class="name">日本語</span></a></li>
+						<li class=" xans-record-"><a
+							href="//shop5.ecudemo42968.cafe24.com/"><img
+								src="//img.cafe24.com/img/common/global/zh_TW_32x24.png" alt=""
+								class="ease" /><span class="name">繁體中文</span></a></li>
+					</ul></li>
+
+				<!--sns 링크배너-->
+				<div id="snslink">
+					<!-- 
+sns 링크를 설정 할수 있습니다. 사용자의 계정링크를 입력 하여 연결 해주세요
+아래의 소스 한줄이 각 sns별 아이콘 하나 입니다. 해당 소스 한줄을 잘라내어  밑으로 붙여주세요^^
+
+<a href="#none" target="_blank"><img src="web/season2_skin/skin1/images/snslink_03.png" alt="트위터"><span class="toggle_img ease"><img src="web/season2_skin/skin1/images/snslink_2_03.png"></span></a>
+<a href="#none" target="_blank"><img src="web/season2_skin/skin1/images/snslink_05.png" alt="핀터레스트"><span class="toggle_img ease"><img src="web/season2_skin/skin1/images/snslink_2_05.png"></span></a>
+<a href="#none" target="_blank"><img src="web/season2_skin/skin1/images/snslink_06.png" alt="카카오스토리"><span class="toggle_img ease"><img src="web/season2_skin/skin1/images/snslink_2_06.png"></span></a>
+<a href="#none" target="_blank"><img src="web/season2_skin/skin1/images/snslink_07.png" alt="유투브"><span class="toggle_img ease"><img src="web/season2_skin/skin1/images/snslink_2_07.png"></span></a>
+<a href="#none" target="_blank"><img src="web/season2_skin/skin1/images/snslink_08.png" alt="네이버카페"><span class="toggle_img ease"><img src="web/season2_skin/skin1/images/snslink_2_08.png"></span></a>
+<a href="#none" target="_blank"><img src="web/season2_skin/skin1/images/snslink_10.png" alt="네이버"><span class="toggle_img ease"><img src="web/season2_skin/skin1/images/snslink_2_10.png"></span></a>
+<a href="#none" target="_blank"><img src="web/season2_skin/skin1/images/snslink_11.png" alt="네이버라인"><span class="toggle_img ease"><img src="web/season2_skin/skin1/images/snslink_2_11.png"></span></a>
+<a href="#none" target="_blank"><img src="web/season2_skin/skin1/images/snslink_12.png" alt="네이버톡톡"><span class="toggle_img ease"><img src="web/season2_skin/skin1/images/snslink_2_12.png"></span></a>
+<a href="#none" target="_blank"><img src="web/season2_skin/skin1/images/snslink_13.png" alt="네이버스토어"><span class="toggle_img ease"><img src="web/season2_skin/skin1/images/snslink_2_13.png"></span></a>
+<a href="#none" target="_blank"><img src="web/season2_skin/skin1/images/snslink_14.png" alt="네이버"><span class="toggle_img ease"><img src="web/season2_skin/skin1/images/snslink_2_14.png"></span></a>
+<a href="#none" target="_blank"><img src="web/season2_skin/skin1/images/snslink_09.png" alt="카카오톡"><span class="toggle_img ease"><img src="web/season2_skin/skin1/images/snslink_2_09.png"></span></a>
+
+-->
+
+					<a href="#none" target="_blank"><img
+						src="web/season2_skin/skin1/images/snslink_01.png" alt="페이스북" /><span
+						class="toggle_img ease"><img
+							src="web/season2_skin/skin1/images/snslink_2_01.png" /></span></a> <a
+						href="#none" target="_blank"><img
+						src="web/season2_skin/skin1/images/snslink_02.png" alt="블로그" /><span
+						class="toggle_img ease"><img
+							src="web/season2_skin/skin1/images/snslink_2_02.png" /></span></a> <a
+						href="#none" target="_blank"><img
+						src="web/season2_skin/skin1/images/snslink_04.png" alt="인스타그램" /><span
+						class="toggle_img ease"><img
+							src="web/season2_skin/skin1/images/snslink_2_04.png" /></span></a>
+				</div>
+			</ul>
+			<script type="text/javascript">
+				// Initialize navgoco with default options
+				$(".nav").navgoco({
+					caretHtml : '',
+					accordion : true,
+					openClass : 'open',
+					save : true,
+					cookie : {
+						name : 'navgoco',
+						expires : false,
+						path : '/'
+					},
+					slide : {
+						duration : 650,
+						easing : 'easeOutBack'
+					}
+
+				});
+			</script>
+		</div>
+
+		<div id="right">
+			<div id="r_search">
+				<a href="#none"><i class="fa fa-search" aria-hidden="true"></i></a>
+			</div>
+			<div id="side_on">
+				<a href="#none" class="tuxedo-menu-trigger"><i
+					class="fa fa-bars" aria-hidden="true"></i></a>
+			</div>
+		</div>
+
+
+
+		<!--오른쪽 상단 검색창-->
+		<form id="searchBarForm" name="" action="/product/search.html"
+			method="get" target="_self" enctype="multipart/form-data">
+			<input id="banner_action" name="banner_action" value="" type="hidden" />
+			<div
+				class="xans-element- xans-layout xans-layout-searchheader search_header ">
+				<!--
+			    $product_page=/product/detail.html
+			    $category_page=/product/list.html
+    -->
+				<fieldset>
+					<input id="keyword" name="keyword" fw-filter="" fw-label="검색어"
+						fw-msg="" class="inputTypeText" placeholder=""
+						onmousedown="SEARCH_BANNER.clickSearchForm(this)" value=""
+						type="text" /><a href="#none"
+						onclick="SEARCH_BANNER.submitSearchBanner(this); return false;"><i
+						class="fa fa-search" aria-hidden="true"></i></a>
+				</fieldset>
+				<span class="close_btn"><a href="#none"><i
+						class="fa fa-times" aria-hidden="true"></i></a></span>
+			</div>
+		</form>
+		<!-- 
+우측전체메뉴(햄버거메뉴클릭시) 소스 부분입니다.
+-->
+
+
+		<nav id="sidebar" class="tuxedo-menu">
+		<div class="mobile_menu">
+			<div class="inner">
+				<script src="mosen/menu05/src/jquery.cookie.js"></script>
+				<script type="text/javascript"
+					src="mosen/menu05/src/jquery.navgoco.js"></script>
+
+
+				<ul id="left_menu" class="nav accordion">
+					<!--메인로고메뉴-->
+					<li class="logo "><a href="/index.html"><img
+							src="web/season2_skin/skin1/images/logo.png" alt="" /></a></li>
+
+					<!--로그인메뉴-->
+					<li
+						class="xans-element- xans-layout xans-layout-statelogoff login_menu "><a
+						href="/member/login.html">login</a> / <a
+						href="/member/agreement.html">join us</a></li>
+
+					<li class="login_menu"><a href="/myshop/index.html">my
+							page</a> / <a href="/order/basket.html"
+						class="xans-element- xans-layout xans-layout-orderbasketcount ">basket
+							<span>(0)</span>
+					</a></li>
+
+					<!--메인스타일 메뉴-->
+					<li class="cate_menu"><a href="#">MAIN STYLE</a>
+						<ul class="category">
+							<li><a href="/brand/style01.html">Furniture</a></li>
+							<li><a href="/brand/style02.html">Surface</a></li>
+							<li><a href="/brand/style03.html">WILDLING</a></li>
+							<li><a href="/brand/style04.html">CASA CHREPA</a></li>
+							<li><a href="/brand/style05.html">APPLE</a></li>
+							<li><a href="/brand/style06.html">FASHION</a></li>
+
+
+						</ul></li>
+
+					<!--어바웃메뉴-->
+					<li class="cate_menu"><a href="#">ABOUT US</a>
+						<ul class="category">
+							<li><a href="/company/about.html">ABOUT W</a></li>
+							<li><a href="/company/movie.html">BRAND MOVIE</a></li>
+							<li><a href="/company/location.html">LOCATION</a></li>
+
+
+						</ul></li>
+
+					<!--스토어메뉴-->
+					<li class="cate_menu"><a href="#">STORE</a>
+						<ul
+							class="xans-element- xans-layout xans-layout-category category">
+							<li class="xans-record-"><a href="/category/new-in/42/">new
+									in</a></li>
+							<li class="xans-record-"><a href="/category/fashion/24/">FASHION</a></li>
+							<li class="xans-record-"><a href="/category/beauty-care/25/">BEAUTY
+									& CARE</a></li>
+							<li class="xans-record-"><a href="/category/electronics/27/">ELECTRONICS</a></li>
+							<li class="xans-record-"><a href="/category/style/28/">STYLE</a></li>
+							<li class="xans-record-"><a href="/category/sale/26/">sale</a></li>
+						</ul></li>
+
+					<!--커뮤니티메뉴-->
+					<li class="cate_menu"><a href="#">COMMUNITY</a>
+						<ul
+							class="xans-element- xans-layout xans-layout-boardinfo category">
+							<li class="xans-record-"><a
+								href="/board/free/list.html?board_no=1">NOTICE</a></li>
+							<li class="xans-record-"><a
+								href="/board/product/list.html?board_no=6">Q & A</a></li>
+							<li class="xans-record-"><a
+								href="/board/product/list.html?board_no=4">REVIEW</a></li>
+							<li class="xans-record-"><a
+								href="/board/gallery/list.html?board_no=8">PRESS</a></li>
+						</ul></li>
+
+					<!--룩북메뉴-->
+					<li class="cate_menu"><a href="#">LOOKBOOK</a>
+						<ul class="category">
+							<li class="cate_menu"><a
+								href="/lookbook/list_basic.html?cate_no=43">BASIC</a></li>
+							<li class="cate_menu"><a
+								href="/lookbook/list_popup.html?cate_no=43">POPUP</a></li>
+
+						</ul></li>
+
+					<!--포트폴리오메뉴-->
+					<li class="cate_menu"><a href="#">PORTFOLIO</a>
+						<ul class="category">
+							<li><a href="/portfolio/list_popup.html?cate_no=45">INTERIOR</a></li>
+							<li><a href="/portfolio/list_popup.html?cate_no=46">DESIGN</a></li>
+							<li><a href="/portfolio/list_basic.html?cate_no=47">PHOTO
+									LIVE</a></li>
+							<li><a href="/portfolio/list_basic.html?cate_no=48">FASHION</a></li>
+
+
+						</ul></li>
+
+					<!--스토키스트 메뉴-->
+					<li style="margin-top: 20px;" class="cate_menu"><a
+						href="/company/stockist.html" class="small_menu"><i
+							class="fa fa-angle-right" aria-hidden="true"></i> STOCKIST</a></li>
+
+					<!--컨텍트어스 메뉴-->
+					<li class="cate_menu"><a href="/board/urgency/urgency.html"
+						class="small_menu"><i class="fa fa-angle-right"
+							aria-hidden="true"></i> CONTACT US</a></li>
+
+					<!--글로벌메뉴 (멀티쇼핑몰적용시 자동 온/오프됨)-->
+					<li
+						class="xans-element- xans-layout xans-layout-multishoplistitem cate_menu"><a
+						href="#" class="small_menu"><i class="fa fa-angle-right"
+							aria-hidden="true"></i> BY LANGUAGE</a>
+						<ul class="global_btn">
+							<li class="selected xans-record-"><a
+								href="//ecudemo42968.cafe24.com/"><img
+									src="//img.cafe24.com/img/common/global/ko_KR_32x24.png" alt=""
+									class="ease" /><span class="name">한국어</span></a></li>
+							<li class=" xans-record-"><a
+								href="//shop2.ecudemo42968.cafe24.com/"><img
+									src="//img.cafe24.com/img/common/global/en_US_32x24.png" alt=""
+									class="ease" /><span class="name">English</span></a></li>
+							<li class=" xans-record-"><a
+								href="//shop3.ecudemo42968.cafe24.com/"><img
+									src="//img.cafe24.com/img/common/global/zh_CN_32x24.png" alt=""
+									class="ease" /><span class="name">中文</span></a></li>
+							<li class=" xans-record-"><a
+								href="//shop4.ecudemo42968.cafe24.com/"><img
+									src="//img.cafe24.com/img/common/global/ja_JP_32x24.png" alt=""
+									class="ease" /><span class="name">日本語</span></a></li>
+							<li class=" xans-record-"><a
+								href="//shop5.ecudemo42968.cafe24.com/"><img
+									src="//img.cafe24.com/img/common/global/zh_TW_32x24.png" alt=""
+									class="ease" /><span class="name">繁體中文</span></a></li>
+						</ul></li>
+
+					<!--sns 링크배너-->
+					<div id="snslink">
+						<!-- 
+sns 링크를 설정 할수 있습니다. 사용자의 계정링크를 입력 하여 연결 해주세요
+아래의 소스 한줄이 각 sns별 아이콘 하나 입니다. 해당 소스 한줄을 잘라내어  밑으로 붙여주세요^^
+
+<a href="#none" target="_blank"><img src="web/season2_skin/skin1/images/snslink_03.png" alt="트위터"><span class="toggle_img ease"><img src="web/season2_skin/skin1/images/snslink_2_03.png"></span></a>
+<a href="#none" target="_blank"><img src="web/season2_skin/skin1/images/snslink_05.png" alt="핀터레스트"><span class="toggle_img ease"><img src="web/season2_skin/skin1/images/snslink_2_05.png"></span></a>
+<a href="#none" target="_blank"><img src="web/season2_skin/skin1/images/snslink_06.png" alt="카카오스토리"><span class="toggle_img ease"><img src="web/season2_skin/skin1/images/snslink_2_06.png"></span></a>
+<a href="#none" target="_blank"><img src="web/season2_skin/skin1/images/snslink_07.png" alt="유투브"><span class="toggle_img ease"><img src="web/season2_skin/skin1/images/snslink_2_07.png"></span></a>
+<a href="#none" target="_blank"><img src="web/season2_skin/skin1/images/snslink_08.png" alt="네이버카페"><span class="toggle_img ease"><img src="web/season2_skin/skin1/images/snslink_2_08.png"></span></a>
+<a href="#none" target="_blank"><img src="web/season2_skin/skin1/images/snslink_10.png" alt="네이버"><span class="toggle_img ease"><img src="web/season2_skin/skin1/images/snslink_2_10.png"></span></a>
+<a href="#none" target="_blank"><img src="web/season2_skin/skin1/images/snslink_11.png" alt="네이버라인"><span class="toggle_img ease"><img src="web/season2_skin/skin1/images/snslink_2_11.png"></span></a>
+<a href="#none" target="_blank"><img src="web/season2_skin/skin1/images/snslink_12.png" alt="네이버톡톡"><span class="toggle_img ease"><img src="web/season2_skin/skin1/images/snslink_2_12.png"></span></a>
+<a href="#none" target="_blank"><img src="web/season2_skin/skin1/images/snslink_13.png" alt="네이버스토어"><span class="toggle_img ease"><img src="web/season2_skin/skin1/images/snslink_2_13.png"></span></a>
+<a href="#none" target="_blank"><img src="web/season2_skin/skin1/images/snslink_14.png" alt="네이버"><span class="toggle_img ease"><img src="web/season2_skin/skin1/images/snslink_2_14.png"></span></a>
+<a href="#none" target="_blank"><img src="web/season2_skin/skin1/images/snslink_09.png" alt="카카오톡"><span class="toggle_img ease"><img src="web/season2_skin/skin1/images/snslink_2_09.png"></span></a>
+
+-->
+
+						<a href="#none" target="_blank"><img
+							src="web/season2_skin/skin1/images/snslink_01.png" alt="페이스북" /><span
+							class="toggle_img ease"><img
+								src="web/season2_skin/skin1/images/snslink_2_01.png" /></span></a> <a
+							href="#none" target="_blank"><img
+							src="web/season2_skin/skin1/images/snslink_02.png" alt="블로그" /><span
+							class="toggle_img ease"><img
+								src="web/season2_skin/skin1/images/snslink_2_02.png" /></span></a> <a
+							href="#none" target="_blank"><img
+							src="web/season2_skin/skin1/images/snslink_04.png" alt="인스타그램" /><span
+							class="toggle_img ease"><img
+								src="web/season2_skin/skin1/images/snslink_2_04.png" /></span></a>
+					</div>
+				</ul>
+				<script type="text/javascript">
+					// Initialize navgoco with default options
+					$(".nav").navgoco({
+						caretHtml : '',
+						accordion : true,
+						openClass : 'open',
+						save : true,
+						cookie : {
+							name : 'navgoco',
+							expires : false,
+							path : '/'
+						},
+						slide : {
+							duration : 650,
+							easing : 'easeOutBack'
+						}
+
+					});
+				</script>
+			</div>
+		</div>
+
+		<div class="side_menu">
+
+			<ul>
+				<h2>ABOUT US</h2>
+				<li><a href="/company/about.html">ABOUT W</a></li>
+				<li><a href="/company/movie.html">BRAND MOVIE</a></li>
+				<li><a href="/company/location.html">LOCATION</a></li>
+
+
+				<li><a href="/company/stockist.html">STOCKIST</a></li>
+				<li><a href="/board/urgency/urgency.html">CONTACT US</a></li>
+			</ul>
+			<ul class="xans-element- xans-layout xans-layout-category">
+				<h2>STORE</h2>
+				<li class="xans-record-"><a href="/category/new-in/42/">new
+						in</a></li>
+				<li class="xans-record-"><a href="/category/fashion/24/">FASHION</a></li>
+				<li class="xans-record-"><a href="/category/beauty-care/25/">BEAUTY
+						& CARE</a></li>
+				<li class="xans-record-"><a href="/category/electronics/27/">ELECTRONICS</a></li>
+				<li class="xans-record-"><a href="/category/style/28/">STYLE</a></li>
+				<li class="xans-record-"><a href="/category/sale/26/">sale</a></li>
+			</ul>
+			<ul class="xans-element- xans-layout xans-layout-boardinfo">
+				<h2>COMMUNITY</h2>
+				<li class="xans-record-"><a
+					href="/board/free/list.html?board_no=1">NOTICE</a></li>
+				<li class="xans-record-"><a
+					href="/board/product/list.html?board_no=6">Q & A</a></li>
+				<li class="xans-record-"><a
+					href="/board/product/list.html?board_no=4">REVIEW</a></li>
+				<li class="xans-record-"><a
+					href="/board/gallery/list.html?board_no=8">PRESS</a></li>
+			</ul>
+			<ul>
+				<h2>LOOKBOOK</h2>
+				<li class="cate_menu"><a
+					href="/lookbook/list_basic.html?cate_no=43">BASIC</a></li>
+				<li class="cate_menu"><a
+					href="/lookbook/list_popup.html?cate_no=43">POPUP</a></li>
+
+			</ul>
+			<ul>
+				<h2>PORTFOLIO</h2>
+				<li><a href="/portfolio/list_popup.html?cate_no=45">INTERIOR</a></li>
+				<li><a href="/portfolio/list_popup.html?cate_no=46">DESIGN</a></li>
+				<li><a href="/portfolio/list_basic.html?cate_no=47">PHOTO
+						LIVE</a></li>
+				<li><a href="/portfolio/list_basic.html?cate_no=48">FASHION</a></li>
+
+
+			</ul>
+			<ul>
+				<h2>MEMBERS</h2>
+				<li class="xans-element- xans-layout xans-layout-statelogoff "><a
+					href="/member/login.html" class="first">login</a></li>
+
+				<li class="xans-element- xans-layout xans-layout-statelogoff "><a
+					href="/member/agreement.html">join us</a></li>
+
+				<li><a href="/order/basket.html"
+					class="xans-element- xans-layout xans-layout-orderbasketcount ">basket
+						<span>0</span>
+				</a></li>
+			</ul>
+			<ul class="xans-element- xans-myshop xans-myshop-main ">
+				<h2>MY PAGE</h2>
+				<li class=""><a href="/myshop/order/list.html">order list</a></li>
+				<li><a href="/myshop/mileage/historyList.html">mileage <strong></strong></a></li>
+				<li><a href="/myshop/coupon/coupon.html">my coupon <strong></strong></a></li>
+				<li class=""><a href="/myshop/deposits/historyList.html">my
+						deposits</a></li>
+				<li class=""><a href="/board/consult/list.html">1:1 board</a></li>
+				<li class=""><a href="/myshop/board_list.html">my board</a></li>
+				<li class=""><a href="/myshop/addr/list.html">my address</a></li>
+				<li><a href="/myshop/wish_list.html" class="wishList">wish
+						list <strong><span
+							class="xans_myshop_main_interest_prd_cnt">0</span></strong>
+				</a></li>
+				<li><a href="/product/recent_view_product.html"
+					class="recentList">today view <strong><span
+							class="xans_myshop_main_recent_cnt">0</span></strong></a></li>
+			</ul>
+		</div>
+		<div class="close_btn2">
+			<a href="#none"><img src="web/upload/mosen/btn_close.svg" /></a>
+		</div>
+		</nav>
+		<script
+			src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+		<script src="mosen/sidebar_tuxedo/dist/tuxedo-menu.js"></script>
+		<script>
+			(function($) {
+				var isFixed = true;
+				$('#sidebar').tuxedoMenu({
+					isFixed : isFixed
+				});
+
+			})(jQuery);
+		</script>
+		<div id="sub_container">
+			<div id="sub_contents">
+
+				<div id="titleArea">
+					<h2>로그인</h2>
+				</div>
+				<form id="member_form_4416891218" name=""
+					action="/exec/front/Member/login/" method="post" target="_self"
+					enctype="multipart/form-data">
+					<input id="returnUrl" name="returnUrl" value="index.html"
+						type="hidden" /> <input id="forbidIpUrl" name="forbidIpUrl"
+						value="/" type="hidden" /> <input id="certificationUrl"
+						name="certificationUrl" value="/intro/adult_certification.html"
+						type="hidden" /> <input id="sIsSnsCheckid" name="sIsSnsCheckid"
+						value="" type="hidden" /> <input id="sProvider" name="sProvider"
+						value="" type="hidden" />
+					<div id="member_login_module_id"
+						class="xans-element- xans-member xans-member-login ">
+						<!--
+        $defaultReturnUrl = /index.html
+    -->
+						<!--주문조회-->
+						<div class="loginWrap">
+							<div class="ec-base-tab gMerge displaynone">
+								<ul>
+									<li class="selected"><a href="#member">회원</a></li>
+									<li><a href="#noMember">비회원</a></li>
+								</ul>
+							</div>
+
+							<fieldset>
+								<div class="formBox">
+									<div class="form">
+										<input id="member_id" name="member_id" fw-filter="isFill"
+											fw-label="아이디" fw-msg="" class="inputTypeText" placeholder=""
+											value="" type="text" /> <input id="member_passwd"
+											name="member_passwd" fw-filter="isFill&isMin[4]&isMax[16]"
+											fw-label="패스워드" fw-msg="" autocomplete="off" value=""
+											type="password" />
+									</div>
+									<div class="option">
+										<span class="auto"><input id="use_login_keeping0"
+											name="use_login_keeping" fw-filter="" fw-label="로그인상태유지"
+											fw-msg="" onclick="MemberAction.confirmLoginKeeping(this);"
+											value="T" type="checkbox" /><label for="use_login_keeping0">로그인
+												상태 유지</label></span> <span class="save"></span> <span class="ssl"><img
+											src="//img.echosting.cafe24.com/skin/mobile_ko_KR/member/ico_ssl.png"
+											alt="보안접속" /></span>
+									</div>
+									<div class="ec-base-button gFull">
+										<button type="button" class="btnSubmit"
+											onclick="MemberAction.login('member_form_4416891218'); return false;">로그인</button>
+										<a href="" onclick="" class="btnEm displaynone">비회원 구매</a>
+									</div>
+									<div class="loginUtil">
+										<a href="member/id/find_id.html" class="btnLogin">아이디찾기</a> <a
+											href="member/passwd/find_passwd_info.html" class="btnLogin">비밀번호찾기</a>
+										<a href="agreement.html" class="btnLogin">회원가입</a>
+									</div>
+									<div class="snsLogin">
+										<a href="#none" class="btnNaver displaynone" onclick=""><span>네이버
+												로그인</span></a> <a href="#none" class="btnFacebook displaynone"
+											onclick=""><span>Facebook으로 로그인</span></a> <a href="#none"
+											class="btnGoogle displaynone" onclick=""><span>구글
+												로그인</span></a> <a href="#none" class="btnKakao displaynone" onclick=""><span>카카오계정
+												로그인</span></a> <a href="#none" class="btnLine displaynone" onclick=""><span>LINE
+												로그인</span></a> <a href="#none" class="btnApple displaynone" onclick=""><span>Apple로
+												로그인</span></a>
+									</div>
+								</div>
+							</fieldset>
+						</div>
+						<!--//주문조회-->
+					</div>
+				</form>
+
+			</div>
+
+		</div>
+
+		<!-- 하단영역-->
+		<!--하단회사정보-->
+		<div id="bottom" class="xans-element- xans-layout xans-layout-footer">
+			<div class="bottom_menu">
+				<a href="/index.html">HOME</a> <a href="/member/agreement.html">AGREEMENT</a>
+				<a href="/member/privacy.html"><b>개인정보취급방침</b></a> <a
+					href="/shopinfo/guide.html">GUIDE</a> <a href="/link/bookmark.html"
+					class="bottom_plus" target="_blank"
+					onclick="winPop(this.href); return false;"><i
+					class="fas fa-plus"></i></a> <a href="#top" class="top_btn"><i
+					class="fas fa-chevron-up"></i></a>
+				<div
+					class="xans-element- xans-layout xans-layout-multishoplistitem bottom_language">
+					<ul class="global_btn">
+						<li class="selected xans-record-"><a
+							href="//ecudemo42968.cafe24.com/"><img
+								src="//img.cafe24.com/img/common/global/ko_KR_32x24.png" alt=""
+								class="ease" /></a></li>
+						<li class=" xans-record-"><a
+							href="//shop2.ecudemo42968.cafe24.com/"><img
+								src="//img.cafe24.com/img/common/global/en_US_32x24.png" alt=""
+								class="ease" /><span class="name">English</span></a></li>
+						<li class=" xans-record-"><a
+							href="//shop3.ecudemo42968.cafe24.com/"><img
+								src="//img.cafe24.com/img/common/global/zh_CN_32x24.png" alt=""
+								class="ease" /><span class="name">中文</span></a></li>
+						<li class=" xans-record-"><a
+							href="//shop4.ecudemo42968.cafe24.com/"><img
+								src="//img.cafe24.com/img/common/global/ja_JP_32x24.png" alt=""
+								class="ease" /><span class="name">日本語</span></a></li>
+						<li class=" xans-record-"><a
+							href="//shop5.ecudemo42968.cafe24.com/"><img
+								src="//img.cafe24.com/img/common/global/zh_TW_32x24.png" alt=""
+								class="ease" /><span class="name">繁體中文</span></a></li>
+					</ul>
+				</div>
+			</div>
+			<hr />
+			<div class="bottom_info">
+				<!--하단 회사정보-->
+				<ul>
+					<li class="bottom_mypage">
+						<h2>BANK ACCOUNT</h2>
+						<table>
+							<!--
+아래의 내용중 검정글씨만 수정해주세요^^
+-->
+							<tr>
+								<th>농협</th>
+								<td>351-1067-6690-73</td>
+							</tr>
+							<tr>
+								<th>국민</th>
+								<td>087901-04-183507</td>
+							</tr>
+							<tr>
+								<th>예금주</th>
+								<td>김신오(모센컴퍼니)</td>
+							</tr>
+						</table>
+					</li>
+					<li>
+						<h2>COMPANY INFO</h2>
+						<table>
+							<tr>
+								<th>COMPANY</th>
+								<td>모센컴퍼니</td>
+							</tr>
+							<tr>
+								<th>OWNER</th>
+								<td>김신오</td>
+							</tr>
+							<tr class=" cpo ">
+								<th>C.P.O</th>
+								<td>김신오<!--a href="mailto:mosendesign@naver.com">(mosendesign@naver.com)</a-->
+								</td>
+							</tr>
+							<tr class="">
+								<th>E-mail</th>
+								<td><a href="mailto:mosendesign@naver.com">mosendesign@naver.com</a></td>
+							</tr>
+							<tr>
+								<th>TEL</th>
+								<td>010-4555-5884 <span class="time">평일상담 10:00 -
+										18:00 / 점심시간 12:00 - 13:00 / 토,일,공휴일 휴무</span>
+								</td>
+							</tr>
+							<tr>
+								<th>FAX</th>
+								<td>02-000-0000</td>
+							</tr>
+							<tr class="mallorder">
+								<th>ORDER LICENSE</th>
+								<td>제 2020-서울강남-4568호 <a href="#none"
+									onclick="window.open('http://www.ftc.go.kr/bizCommPop.do?wrkr_no=5510800687', 'bizCommPop', 'width=750, height=950;');return false;">[사업자정보확인]</a></td>
+							</tr>
+							<tr class="business">
+								<th>BUSINESS LICENSE</th>
+								<td>551-08-00687</td>
+							</tr>
+							<tr>
+								<th>ADDRESS</th>
+								<td>10089 경기도 김포시 태장로 846 (장기동) 한강센트럴자이2단지</td>
+							</tr>
+						</table>
+					</li>
+				</ul>
+			</div>
+			<hr />
+			<div class="bottom_linkmenu">
+				<p class="xans-element- xans-layout xans-layout-footer copy ">
+					Copyright 모센컴퍼니 All right reserved / <a href=".com" target="_blank">design
+						by MOSEN</a> / Hosting by CAFE24
+				</p>
+				<!--하단에스크로배너 및 기타배너-->
+				<p class="escro">
+					<style>
+.kg {
+	color: #442678;
+}
+
+.kcp {
+	color: #095878;
+}
+
+.ksnet {
+	color: #233062;
+}
+
+.allthegate {
+	color: #797a79;
+}
+
+.allat {
+	color: #442678;
+}
+
+.lg {
+	color: #442678;
+}
+
+.danal {
+	color: #f70c1a;
+}
+
+.kgmob {
+	color: #442678;
+}
+
+.kakao {
+	color: #000;
+	font-weight: normal;
+}
+
+.payco {
+	color: #f02128;
+}
+
+.kpay {
+	color: #d8402b;
+}
+
+.paynow {
+	color: #c11c3a;
+}
+</style>
+					<!--
+
+아래의 해당 pg사의 소스 한줄을 복사하여 하단 소스 부분에 붙여 넣어 주세요^^ 로고를 이미지 대신 소스로 대신합니다.
+
+<span class="kg">KG 이니시스</span>
+<span class="kcp">KCP</span>
+<span class="ksnet">KSNET</span>
+<span class="allthegate">allthe<font style="color:#208e4d;">Gate</font></span>
+<span class="allat">KG 올앳</span>
+<span class="lg">LG U+</span>
+<span class="danal">Da<font style="color:#0c58a1;">nal</font></span>
+<span class="kgmob">KG mobilians</span>
+<span class="kakao"><i class="fa fa-comment" aria-hidden="true"></i> Kakao<b>Pay</b></span>
+<span class="payco">PAYCO</span>
+<span class="kpay">Kpay</span>
+<span class="paynow">Paynow</span>
+
+-->
+
+
+					고객님은 안전거래를 위해 현금 등으로 결제시 저희 쇼핑몰에서 가입한 PG사의 구매안전서비스를 이용하실 수 있습니다. <span
+						class="kg"><b>KG</b> 이니시스</span> 에스크로 <a
+						href="#%EB%A7%81%ED%81%AC%EC%A3%BC%EC%86%8C" target="_blank">서비스가입사실확인</a>
+				</p>
+			</div>
+		</div>
+
+
+
+
+
+
+
+
+	</div>
+
+	<!-- 결제를 위한 필수 영역 -->
+	<div id="progressPaybar" style="display: none;">
+		<div id="progressPaybarBackground" class="layerProgress"></div>
+		<div id="progressPaybarView">
+			<div class="box">
+				<p class="graph">
+					<span><img
+						src="//img.echosting.cafe24.com/skin/base_ko_KR/layout/txt_progress.gif"
+						alt="현재 결제가 진행중입니다." /></span> <span><img
+						src="//img.echosting.cafe24.com/skin/base/layout/img_loading.gif"
+						alt="" /></span>
+				</p>
+				<p class="txt">
+					본 결제 창은 결제완료 후 자동으로 닫히며,결제 진행 중에 본 결제 창을 닫으시면<br /> 주문이 되지 않으니 결제
+					완료 될 때 까지 닫지 마시기 바랍니다.
+				</p>
+			</div>
+		</div>
+	</div>
+	<!-- // 결제를 위한 필수 영역 -->
+
+
+
+
+	<script>
+		$(window)
+				.scroll(
+						function() {
+							if ($(window).scrollTop() + $(window).height() > $(
+									document).height() - 300) {
+								$('#left').addClass('hidetoggle');
+								$('.mbi-simpletalk-kakao').fadeOut(500);
+								$('#bottom , .ec-base-lookbook').removeClass(
+										'move_Top_Out2').addClass(
+										'move_Top_In2');
+							} else {
+								$('#left').removeClass('hidetoggle');
+								$('.mbi-simpletalk-kakao').fadeIn(500);
+								$('#bottom , .ec-base-lookbook').removeClass(
+										'move_Top_In2').addClass(
+										'move_Top_Out2');
+							}
+						});
+	</script>
+
+	<script type="text/javascript">
+		var sAuthSSLDomain = "https://login2.cafe24ssl.com";
+	</script>
+	<script type="text/javascript"
+		src="https://login2.cafe24ssl.com/crypt/AuthSSLManager.js"></script>
+	<script type="text/javascript"
+		src="https://login2.cafe24ssl.com/crypt/AuthSSLManager.plugin.js"></script>
+	<script type="text/javascript" src="ind-script/i18n.js" charset="utf-8"></script>
+
+	<script type="text/javascript" src="ind-script/optimizer_01.js"></script>
+	<script type="text/javascript" src="ind-script/optimizer_02.js"></script>
+	<script type="text/javascript" src="ind-script/optimizer_03.js"></script>
+	<script type="text/javascript" src="ind-script/optimizer_04.js"></script>
+	<script type="text/javascript" src="ind-script/optimizer_05.js"></script>
+	<script type="text/javascript">
+		var EC_MOBILE = false;
+		var EC_MOBILE_DEVICE = false;
+		var EC_MOBILE_USE = false;
+		localStorage.setItem('EC_JQUERY_VERSION', '1.4.4');
+		var mobileWeb = false;
+		var bUseElastic = false;
+		var sSearchBannerUseFlag = 'F';
+		var login_id_type_text = '아이디';
+		EC$(function() {
+			AuthSSL.Bind('member_form_4416891218', [
+					"member_form_4416891218::member_id",
+					"member_form_4416891218::member_passwd",
+					"member_form_4416891218::returnUrl",
+					"member_form_4416891218::forbidIpUrl",
+					"member_form_4416891218::use_login_keeping[]",
+					"member_form_4416891218::certificationUrl",
+					"member_form_4416891218::sIsSnsCheckid",
+					"member_form_4416891218::sProvider",
+					"member_form_4416891218::check_save_id",
+					"member_form_4416891218::use_login_keeping",
+					"member_form_4416891218::sLoginKey" ]);
+		});
+		var aLogData = {
+			"log_server1" : "eclog2-181.cafe24.com",
+			"log_server2" : "eclog2-181.cafe24.com",
+			"mid" : "ecudemo42968",
+			"stype" : "e",
+			"domain" : "",
+			"shop_no" : 1,
+			"lang" : "ko_KR",
+			"ver" : 2,
+			"ca" : "",
+			"etc" : ""
+		};
+		var sMileageName = '적립금';
+		var sMileageUnit = '[:PRICE:]원';
+		var sDepositName = '예치금';
+		var sDepositUnit = '원';
+		var SHOP_CURRENCY_INFO = {
+			"1" : {
+				"aShopCurrencyInfo" : {
+					"currency_code" : "KRW",
+					"currency_no" : "410",
+					"currency_symbol" : "\uffe6",
+					"currency_name" : "South Korean won",
+					"currency_desc" : "\uffe6 \uc6d0 (\ud55c\uad6d)",
+					"decimal_place" : 0,
+					"round_method_type" : "F"
+				},
+				"aShopSubCurrencyInfo" : null,
+				"aBaseCurrencyInfo" : {
+					"currency_code" : "KRW",
+					"currency_no" : "410",
+					"currency_symbol" : "\uffe6",
+					"currency_name" : "South Korean won",
+					"currency_desc" : "\uffe6 \uc6d0 (\ud55c\uad6d)",
+					"decimal_place" : 0,
+					"round_method_type" : "F"
+				},
+				"fExchangeRate" : 1,
+				"fExchangeSubRate" : null,
+				"aFrontCurrencyFormat" : {
+					"head" : "",
+					"tail" : " won"
+				},
+				"aFrontSubCurrencyFormat" : {
+					"head" : "",
+					"tail" : ""
+				}
+			}
+		};
+		var EC_ASYNC_LIVELINKON_ID = '';
+		if (EC$('[async_section=before]').length > 0) {
+			EC$('[async_section=before]').addClass('displaynone');
+		}
+	</script>
+</body>
+</html>
